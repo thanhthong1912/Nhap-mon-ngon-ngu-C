@@ -4,6 +4,7 @@ int main(void){
   scanf("%d", &m);
   printf("m = %dg\n", m * 1000);
   printf("KG  | G\n");
+  printf("----------\n");
   printf("%d", m);
   printf("   |%d", m * 1000);
   return 0;
