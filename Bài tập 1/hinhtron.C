@@ -12,6 +12,7 @@ int main(void){
     printf("CV = 2 * R * PI = %0.2f\n",CV);
     //tinh dien tich hinh tron
     printf("DT = R * R * PI = %0.3f\n",DT);
+    //hien thi bang voi cac gia tri R,CV,DT
     printf("  R |   CV  | DT\n");
     printf(" 1.5|  9.42 | 7.065");
 return 0; 
