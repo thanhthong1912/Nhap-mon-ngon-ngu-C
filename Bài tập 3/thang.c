@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main(void) {
-  int thang;
-  printf("nhap thang: ");
-  scanf("%d",&thang);
-  switch(thang){
+  int month;
+  printf("type month: ");
+  scanf("%d",&month);
+  switch(month){
     case 1:
         printf("january has 31 days");break;
     case 2:
@@ -30,7 +30,7 @@ int main(void) {
     case 12:
         printf("december has 31 days");break;
     default:
-        printf("vui long nhap thang");
+        printf("please, type month");
   }
 return 0;
 } 
