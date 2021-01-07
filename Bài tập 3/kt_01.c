@@ -12,3 +12,21 @@ int main(){
     }
 return 0;
 }
+
+
+-----------
+#include <stdio.h>
+ 
+int main(){
+  int i;
+  int j;
+  printf("nhap bang cuu chuong:");
+  scanf("%d",&i);{
+    if(i=1;i++){
+      printf("bang nhan %d", i);
+    }else if("j = 0;j < 5; j++"){
+      printf("%d * %d = %d\n", i,j,i*j);
+    }
+  }
+  return 0;
+}
