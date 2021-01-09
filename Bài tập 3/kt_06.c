@@ -1,20 +1,19 @@
 #include <stdio.h>
 
 int main(){
-	int n, i, c, space;
+	int n, i, c, trong;
 
-	printf("\nNhap n: ");
+	printf("\n Nhap n: ");
   scanf("%d", &n);
 
-	for (i=1 ; i<=n ; i++)
-  	printf(" ");
+	  for (i = 1 ; i <= n ; i++)
   {
- 		for (space=n-1 ; space>=i ; space--){
-       printf("*");
-		}
-		for (c=1 ; c<=i*2 ; c++){
-     printf(" \n");
- 		}
+ 		for (trong=n-1 ; trong>=i ; trong--){
+         	printf(" ");
+		} 
+		for (c = 1 ; c <= i*2 ; c++){
+          printf(" * ");
+ 		}printf("\n");
   	}
   return 0;
 }
