@@ -1,17 +1,12 @@
 #include<stdio.h>
 int main(){
-    int n;
-    //gan gia tri a
-    printf("hien thi tong cac chu so cua mot so nguyen n: ");
-    for(n=1;n>0;n++){
-      if(n%2){
-        switch (n){
-          case 0:
-          break;
-          default:
-          printf("\n %d", n);
-        }
-      }
-    }
-    return 0;
+	int n,so_du,sum=0;
+	printf("Nhap so n (so nguyen <1000): "); scanf("%d",&n);
+    
+	for(;n!=0;n=n/10){
+		sum += n%10;
+	}
+	
+	printf("sum = %d\n",sum);
+	return 0;
 }
