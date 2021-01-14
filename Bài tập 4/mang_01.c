@@ -10,7 +10,7 @@ int main()
 	int n = 4;
 	{
   //vong lap xuat ra so 3, 5, 7, 2
-		for ( i = 0; i < a; i++)
+		for ( i = 0; i < n; i++)
 		{
       //hien thi tren man hinh 3, 5, 7, 2
 			printf("%d", array[i]);
