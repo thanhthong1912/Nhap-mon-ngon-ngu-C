@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main(void) {
+int main() {
   //gan gia tri va tao mang
   int a[4];
   int i, tong = 0;
-  a[0] = 3;a[1] = 5;a[2] = 7;a[3] = 2;
+  a[0] = 3; a[1] = 5; a[2] = 7; a[3] = 2;
     printf("%d \n", a[0]);
     printf("%d \n", a[1]);
     printf("%d \n", a[2]);
