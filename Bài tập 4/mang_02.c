@@ -20,13 +20,13 @@ int main ()
       //Nhap so lieu phan tu ra man hinh
       scanf("%d", &a [i]);
 		}
-  //Vong lap Tinh tong cac so tu day tren
-	for ( i = 0; i < n; i++)
-	{
-		s = s + a[i];
-	}
-    //In ket qua tinh tong ra man hinh 
-		printf("\nTong cac so tu day tren = %d", s);
+  
+	
+	
+		
+	
+    
+		
   
   return  0;
 }
