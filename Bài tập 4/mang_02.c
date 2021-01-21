@@ -1,24 +1,17 @@
-include <stdio.h>
+#include<stdio.h>
 
-int main () 
-{
-  //Khai bao bien kem khoi tao mang (Chiec hop 100 ngan)
-  int a[100];
-  //Khao bao bien n va i
-  int n, i;
-  //Khai bao bien s de tinh tong
-  int s = 0;
-      //In dong chu nhap kich thuoc mang ra man hinh
-  		printf("Nhap kich thuoc mang: \n");
-      //Nhap so lieu tu ban phim
-  		scanf("%d", &n);
-      //In dong chu Nhap so phan tu ra man hinh
-      printf("Nhap so phan tu: \n");
-      //Vong lap i 
- 	for	(i = 0; i < n; i++)
-		{
-      //Nhap so lieu phan tu ra man hinh
-      scanf("%d", &a [i]);
+int main(){
+	int a[100];
+	int i,n, s = 0;
+	printf("nhap kich thuoc: \n");
+	scanf("%d",n);
+	printf("nhap so phan tu: \n");
+	for (i = 0; i < n; i++){
+		scanf("%d",&a [i]);
+		for (i = 0; i < n; i++){
+			s = s + a[i];
 		}
-  return  0;
+		printf("tong cac so tu day so tren = %d",s);
+	}
+	return 0;
 }
