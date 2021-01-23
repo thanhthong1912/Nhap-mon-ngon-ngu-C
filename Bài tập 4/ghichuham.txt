@@ -1,0 +1,2 @@
+strcat() có thể nối hai đoạn chuỗi
+hàm memcpy() dùng để copy một vùng nhớ đến một vùng nhớ khác và rất nhiều hàm khác
