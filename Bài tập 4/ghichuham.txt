@@ -1,3 +1,3 @@
 strcat() có thể nối hai đoạn chuỗi
 hàm memcpy() dùng để copy một vùng nhớ đến một vùng nhớ khác và rất nhiều hàm khác
-dùng hàm int ... ở dưới khối định hàm để cho tất cả phần gọi, định nghĩa đều xác nhận và thực hiện được
+khai báo int ... ở dưới khối định hàm để cho tất cả phần gọi, định nghĩa đều xác nhận và thực hiện được
