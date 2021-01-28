@@ -7,7 +7,7 @@ int main(){
   scanf("%d", &a);
   printf ("Nhap so b: "); 
   scanf ("%d",&b);
-  printf ("Nhap so C: "); 
+  printf ("Nhap so c: "); 
   scanf ("%d",&c);
   if (a >= b && a >= c){
     //hien thi ra man hinh a la so lon nhat
