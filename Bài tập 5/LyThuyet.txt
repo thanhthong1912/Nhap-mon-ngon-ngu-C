@@ -1,1 +1,66 @@
-
+Câu 1: Trình bày bộ chữ viết trong ngôn ngữ C:
+   - Vào đầu những năm 70 tại phòng thí nghiệm Bell, Dennis Ritchie đã phát triển ngôn ngữ C
+   - C là ngôn ngữ bật trung: C được hiểu là ngôn ngữ bật trung bởi vì nó kết hợp những yếu tốt của ngôn ngữ cấp cao và những chức năng của hợp ngữ (ngôn ngữ cấp thấp)
+   - C là ngôn ngữ có cấu trúc: C cho phép có sự tổng hợp của mã lệnh và dữ liệu.
+Câu 2: Có 15 kiểu dữ liệu được dùng trong ngôn ngữ C.
+   -Gồm:
++ char
++ unsigned
++ signed char
++ int
++ unsigned int
++ signed int
++ short int 
++ unsigned short int 
++ long int 
++ signed long int 
++ unsigned long int 
++ float 
++ double
++ long double 
+  - Nhưng được dùng nhiều nhất trong ngôn ngữ C là: char, int, float, double.
+Câu 3: 
+   -Biến (Variables)
+* Một chương trình ứng dụng có thếr quản lý nhiều loại dữ liệu. Trong trường hợp này, chương trình phải chỉ định bộ nhớ cho mỗi đơn vị dữ liệu. Khi chỉ định bộ nhớ, có 2 
+cần lưu ý sau:
+   + Kích thước bộ nhớ (Kiểu dữ liệu)
+   + Vị trí bộ nhớ (Địa chỉ bộ nhớ)
+* Các ngôn ngữ lập trình hiện đại cho phép chúng ta sử dụng các tên tượng trưng gọi là biến (variables), chỉ một vùng bộ nhớ nơi mà các giá trị cụ thế được lưu trữ.
+* Hệ điều hành hoạt động như một giao diện giữa các ô nhớ và lập trình viên. Lập trình viên không cần lưu tâm về vị trí ô nhớ mà để cho hệ điều hành đảm nhiệm.
+   - Khai báo vào khởi tạo biến
+* Biến có thể được khai báo theo cú pháp 
+   Kiểu_dữ_liệu Tên_biến;
+ Trong đó:: kiểu_dữ_liệu là kiểu dữ liệu; Tên_biến là tên biến; kết thúc khai báo biến và dấu chấm phẩy
+ Ví dụ: int num; -> int là kiểu dữ liệu, num là tên biến
+* Khởi tạo biến theo cú pháp:
+   Tên_biến = Giá_trị;
+ Ví dụ: num = 5;
+ Một giá trị Giá_trị kiểu Kiểu_dữ_liệu được lưu trữ trong biến Tên_biến thông qua toán tử gán 
+* Khai báo vào khởi tạo biến có thể thực hiện đồng thời:
+   Kiểu_dữ_liệu Tên_biến = Giá_trị;
+ Ví dụ: int num = 5;
+Câu 4: Biến toàn cục (global variables)
+* Khái niệm:
+   - Được khai báo bên ngoài tất cả các hàm (kể cả hàm main)
+   - Thường được khai báo tại KHỐI KHAI BÁO
+   - có thể sử dụng tại một vị trí trong chương trình như các hàm, khối lệnh lặp for hay while
+  Biến cục bộ hay biến địa phương (local variables)
+* Khái niệm:
+   - Được khai báo bên trong các hàm hay khối lệnh (ví dụ biến đếm lệnh lặp for)
+   - Chỉ có thể được sử dụng trong phạm vi hàm hay khối lệnh
+   - Các tham số của hàm (nếu có) là các biến cục bộ của hàm đó
+Câu 5: Hàm
+* Khái niệm:
+   - Hàm là một khối lệnh (nhiều lệnh) thực hiện một nhiệm vụ cụ thể nào đó (tính tổng, hiển thị thông báo đến người dùng,...)
+   - Một cách hiểu khác về hàm: Hàm là một sự chia nhỏ của chương trình.
+* Phân loại hàm:
+  Hàm có 2 loại:
+   - Hàm thư viện chuẩn (Standran library functions)
+     + Là các hàm được xây dựng sẵn (build-in functions) trong ngôn ngữ C như hàm scanf, printf, getchar,...
+     + Các hàm này được định nghĩa trong các tập tin có mở rộng .h như stdio.h, conio.h,...Các tập tin này phải gộp vào chương trình thông qua chỉ định #include 
+   - Hàm do người dùng định nghĩa (User-defined functions): Định nghĩa theo nhu cầu của người dùng. Các phần tiếp theo sẽ tìm hiểu theo cú pháp khai báo, định nghĩa và loại hàm này.
+ Câu 6: Nguyên tắc hoạt động của hàm trong ngôn ngữ C.
+   - Một chương trình C gồm 3 khối cơ bản:
+     + KHỐI KHAI BÁO: Khái báo và sử dụng thư viện (#include), khai báo hàm, khai báo hằng số, khai báo biến ( toàn cục), khai báo kiểu do người dùng định nghĩa,...
+     + KHỐI HÀM MAIN: Chứa các biến và lời gọi hàm cần thiết cho chương trình
+     + KHỐI ĐỊNH NGHĨA HÀM: Chứa tất cả các định nghĩa hàm đã khai báo trong khối khai báo.
