@@ -12,6 +12,6 @@ int main(){
 	for (int i =1; i<=n; i++){
 		S = S + i;
 	}
-	printf ("S = 1 + 2 + 3 ... + %d = %d",n,S);
+	printf ("S = 1 + 2 ... + %d = %d",n,S);
 	return 0;
 }
